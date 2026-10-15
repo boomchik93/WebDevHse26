@@ -1,0 +1,41 @@
+body {
+    background: aquamarine;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 50%;
+    padding: 24px;
+}
+
+.outline {
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+
+.card-header {
+    padding: 0;
+    margin: 0;
+}
+
+.social {
+    display: flex;
+    gap: 8px;
+    margin: 16px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
